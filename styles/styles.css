@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+#nav {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: .5px solid;
+}
+#name {
+    float: left;
+    padding: 30px 15px 30px 50px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+#nav li a {
+    float: right;
+    display: block;
+    color: white;
+    padding: 30px 15px 30px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#nav li a:hover{
+    color: aqua;
+}
+.container {
+    text-align: center;
+    color: white;
+}
+.center {
+    position: absolute;
+    top: 36.42%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+#para {
+    text-align: center;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+ol {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+}
+#list {
+    text-align: center;
+}
+footer {
+    margin-top: auto;
+    padding: 1% 0% .5% 0%;
+    width: 100%;
+    bottom: 0;
+    border-top: .5px solid;
+    border-color: rgba(7, 51, 54, 0.178);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#me {
+    width: 10%;
+    border-radius: 50%;
+}
+/*Projects page tables for the images format*/
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table img {
+    width: 95%;
+    height: 375px;
+    margin: 5% 0% 0% 0%;
+    border-radius: 1em;
+}
+table figcaption {
+    width: 90%;
+    margin: auto;
+}
